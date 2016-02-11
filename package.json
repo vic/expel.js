@@ -1,0 +1,33 @@
+{
+  "name": "expel",
+  "version": "0.0.1",
+  "description": "Elixir runtime in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vic/expel.js.git"
+  },
+  "keywords": [
+    "elixir",
+    "runtime",
+    "javascript",
+    "interpreter",
+    "compiler"
+  ],
+  "author": "Victor Hugo Borja <vborja@apache.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vic/expel.js/issues"
+  },
+  "homepage": "https://github.com/vic/expel.js#readme",
+  "dependencies": {
+    "junify": "^1.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
