@@ -7,7 +7,14 @@ import {expelElixir} from '../../src/expel/encoder'
 function assertUnify(value, expected) {
   const match = unify(value, expected)
   if (match === false) {
-    assert.fail(value, expected, `Expected ${JSON.stringify(value)} to match pattern ${JSON.stringify(expected)}`)
+    assert.fail(value, expected, `
+    Expected
+
+    ${JSON.stringify(value)}
+
+    to match pattern
+
+    ${JSON.stringify(expected)}`)
   }
   return match
 }
